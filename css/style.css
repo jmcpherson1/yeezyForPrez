@@ -1,20 +1,50 @@
 /*///////////////HOME///////////////*/
-html,body{
+#wrap{
 	font-family: sans-serif;
 }
 
-/*#wrap{
+nav ul{
+	list-style:none;
+	position:fixed;
+}
 
-}*/
+nav ul li{
+	font-weight:bold;
+	font-size:10pt;
+
+	float:left;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
 
 #homeHero{
-	width: 100%;
-  	height: 100%;
+	min-width: 100%;
+  	min-height: 100%;
 	top:0;
 	left:0;
 
 	position: fixed;
+	float:left;
 }
+
+
+
+a:hover{
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
 
 .clearfix{
 	clear:both;
