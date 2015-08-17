@@ -3,12 +3,19 @@
 	font-family: sans-serif;
 }
 
+#yeezyLogo {
+	float:left;
+	margin-left:20px;
+	position:fixed;
+	top:30px;
+}
+
 nav ul{
 	list-style:none;
 	width:100%;
 
 	position:fixed;
-	top:40px;
+	top:55px;
 	right:50px;
 	margin:0 auto;
 	z-index:1000;
@@ -31,7 +38,7 @@ a{
 }
 
 a:hover{
-	color:rgb(154, 119, 36);
+	color:rgb(122, 18, 21);
 }
 
 #homeHero{
