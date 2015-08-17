@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 
 
-$(document).ready(function(){
+$( window ).load(function() {
 	$('#homeHero').hide();
 
 		function anim() {
