@@ -4,8 +4,11 @@
 <header>
 	<title>Yezzy 4 Prez</title>
 
-	<link rel="stylesheet" href="css/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+	<script src="js/custom.js"></script>
+
 </header>
 
 
@@ -17,15 +20,21 @@
 				<li><a href="about.html"/>YEZZUS WALKS</a></li>
 				<li><a href="campaign.html"/>THE CAMPAIGN</a></li>
 				<li><a href="donate.html"/>DONATE</a></li>
-		<!--HIDE BUTTON UNTIL SCROLL IN JQUERY-->
-				<li id="navJoinBtn"><a href="joinyeezy.html"/>JOIN THE MOVEMENT</li>
 			</ul>
 		</nav>
+
+			<form id="joinUsForm" id="clearfix">
+				<input type="text" placeholder="Email Address" id="formField1" >
+				<input type="text" placeholder="Favorite Song" id="formField2">
+				<!--<input type="submit" value="JOIN THE MOVEMENT!" id="joinButton">-->
+			</form>
+				<a href="joinus.html"><button id="joinButton" >JOIN THE MOVEMENT!</button></a>
 
 
 
 		<!--Hero images in HTML for now. Look for jQuery *BELOW*-->
-		<!--<img src="images/yeezyHero1.jpg" id="homeHero" class="clearfix" />-->
+
+		<img src="images/yeezyHero1.jpg" id="homeHero" />
 
 		<!--Hero images in HTML for now. Look for jQuery *ABOVE*-->
 
