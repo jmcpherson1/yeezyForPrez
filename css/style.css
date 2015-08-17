@@ -67,6 +67,9 @@ a:hover{
 	left:113px;
 	top:545px;
 
+	padding-left:20px;
+	padding-right:20px;
+
 }
 
 #formField2{
@@ -78,6 +81,8 @@ a:hover{
 	margin-right: 15px;
 	left:113px;
 	top:545px;
+	padding-left:20px;
+	padding-right:20px;
 
 }
 
@@ -92,7 +97,7 @@ a:hover{
 	border:none;
 
 	display:inline-block;
-	left:760px;
+	left:835px;
 	top:545px;
 	cursor:pointer;
 	float:left;
