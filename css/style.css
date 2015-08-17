@@ -1,4 +1,18 @@
 /*///////////////HOME///////////////*/
+body, html{
+    background:black;
+}
+
+#homeHero{
+    position:fixed;
+    top:0;
+    left:0;
+    display:inline-block;
+    min-width:100%;
+    min-height:100%;
+    z-index: -2000;
+}
+
 #wrap{
 	font-family: sans-serif;
 }
@@ -41,7 +55,7 @@ a:hover{
 	color:rgb(122, 18, 21);
 }
 
-#homeHero{
+/*img{
 	min-width: 100%;
   	min-height: 100%;
 	top:0;
@@ -49,7 +63,7 @@ a:hover{
 
 	z-index:-100;
 	position:fixed;
-}
+	}*/
 
 
 
@@ -111,8 +125,6 @@ a:hover{
 	position:absolute;
 
 }
-
-
 
 
 
