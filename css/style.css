@@ -125,11 +125,11 @@ a:hover{
 	cursor:pointer;
 	float:left;
 	position:absolute;
-
 }
 
-
-
+button:hover {
+  	background: rgba(122,18,21,1);
+}
 
 
 #clearfix{

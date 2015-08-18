@@ -59,6 +59,7 @@ a{
       padding-left:10px;
     }
    
+/*I BE CAREFUL TOUCHING ANYTHING ABOVE HERE. YOU SHOULDN'T REALLY NEED TO///*/
 
 
 
@@ -227,7 +228,7 @@ footer {
   clear:both;
 }
 
-/*///////DELETE BELOW////////////////
+/*///////YOU DON'T NEED THIS STUFF, COME ON, DELETE IT :-/////////////////
 /*.nav li {
     list-style-type: none;
     display: inline-block;
