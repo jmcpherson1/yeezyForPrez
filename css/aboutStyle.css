@@ -1,5 +1,3 @@
-/*///////DONATE PAGE///////////*/
-
 body{
   margin: 0 auto;
   background-color: black;
@@ -13,6 +11,12 @@ body{
   top:30px;
 
   cursor:pointer;
+}
+
+
+p{
+  font-family: sans-serif;
+  color:white;
 }
 
 nav ul{
@@ -47,26 +51,37 @@ a{
   color:white;
 }
 
+
 .topBar{
       width:100%;
       height:70px;
-      background:rgba(0,0,0,1); /*NAV BAR BACKGROUND*/
+      background:rgba(0,0,0,1);
       position:fixed;
       top: 0px;
       left: 0px;
       padding-top:10px;
       padding-left:10px;
-}
+    }
    
-/*I BE CAREFUL TOUCHING ANYTHING ABOVE HERE. YOU SHOULDN'T REALLY NEED TO///*/
 
-
+.imgcenter{
+  display:block;
+  margin:0 auto;
+  height:550px;
+}
 
 .divcustom1{
-  padding: 20px;
-  background:black;
-  color: white;
+  padding: 10px 20px 0px 20px;
+  background: black;
   height: 550px;
+  float:left;
+}
+
+.divcustom2{
+  padding: 10px 20px 0px 20px;
+  background: black;
+  color: black;
+  height: 900px;
   float:left;
 }
 
@@ -87,7 +102,7 @@ padding-left:50px;
 padding-right:0px;
 padding-top:10px;
 padding-bottom:0px;
-margin-top: 60px;
+margin-top: 80px;
 margin-right:0px;
 }
 
@@ -102,6 +117,7 @@ margin-right:0px;
   padding-bottom: 10px;
   background:black;
   margin-top: 50px;
+  box-shadow: 8px 5px 10px #888888;
 }
 
 #headercustom{
@@ -110,7 +126,17 @@ margin-right:0px;
 
 #headercustom2{
   color: rgb(154, 119, 36);
-  margin:0;
+  margin-top:20px;
+  font-family: sans-serif;
+}
+
+#headercustom3{
+  display:block;
+  margin:0 auto;
+  color: rgb(154, 119, 36);
+  font-family: sans-serif;
+  font-size: 30px;
+  padding:20px 80px 50px 80px;
 }
 
 #headercontainer{
@@ -135,7 +161,7 @@ margin-right:0px;
   box-shadow: 0px 1px 3px #666666;
   font-family: Arial;
   color: #000000;
-  font-size: 15px;
+  font-size: 12px;
   padding: 9px 20px 10px 20px;
   text-decoration: none;
   width:75px;
@@ -203,6 +229,47 @@ margin-right:0px;
   text-decoration: none;
 }
 
+.continue{
+  background-image: -webkit-linear-gradient(top, #d6d6d6, #ffffff);
+  background-image: -moz-linear-gradient(top, #d6d6d6, #ffffff);
+  background-image: -ms-linear-gradient(top, #d6d6d6, #ffffff);
+  background-image: -o-linear-gradient(top, #d6d6d6, #ffffff);
+  background-image: linear-gradient(to bottom, #d6d6d6, #ffffff);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+  width:100px;
+  float: left;
+  margin: 10px;
+  text-align: center;
+  background-color: lightgrey;
+  display: inline;
+}
+
+.continue:hover {
+  background: rgb(154, 119, 36);
+  background-image: linear-gradient(to bottom, #ffffff, rgb(154, 119, 36));
+  text-decoration: none;
+}
+
+.acolor{
+  color:black;
+}
+
+.acolor:hover{
+  color:black;
+}
+
+.acolor1{
+  color:white;
+}
+
+.acolor1:hover{
+  color:white;
+}
 
 #bg{
     position:fixed;
@@ -216,7 +283,7 @@ margin-right:0px;
 
 footer { 
   margin:0 auto;
-  background-color:rgb(122, 18, 21);
+  background-color:#1A1A0F;
   width:100%;
   height:50px;
   padding-top:20px;
@@ -226,51 +293,3 @@ footer {
 .clearfix{
   clear:both;
 }
-
-/*///////YOU DON'T NEED THIS STUFF, COME ON, DELETE IT :-/////////////////
-/*.nav li {
-    list-style-type: none;
-    display: inline-block;
-    border: 0px solid   #000000;
-    padding: 13px;
-    padding-right:20px;
-    font-size: 15px;
-    color:white;
-}
-
-.nav a {
-    color:white;
-    display: inline-block;
-    text-align: center;
-}
-
-.nav {
-    border: 1px;
-    margin: 0;
-    padding: 0;
-    padding-right:10px;
-    height: 60px;
-    float: right;
-    /* border: solid 2px; */
-    /*border-color: blue; */
-
-/*#bg {
-  position: fixed; 
-  top: 0; 
-  left: 0;
-  min-height: 100%; 
-  min-width: 100%;
-  z-index: -100000;
-  float:left;
-  clear:none;
-}*/
-
-/*#kanyediv{
-  position: fixed;
-
-  z-index:-90000000;
-  margin:0 auto; 
-
-  height: 700px;
-}*/
-
