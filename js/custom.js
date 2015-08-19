@@ -1,10 +1,12 @@
+//HOME BUTTON CLICK ALERT
+
 $(document).ready(function(){
 	$('#joinButton').click(function() {
 		alert( "You made the right decision. Yezzus will save us all!" );
 	});
 });
 
-
+//HOME BACKGROUND GALLERY
 
 $( window ).load(function() {
 	$('#homeHero').hide();
@@ -16,3 +18,12 @@ $( window ).load(function() {
 	}
 anim();
 });
+
+
+//DONATE PAGE
+$(document).ready(function () {
+  $("#slider").scroll(function () {
+    $(".topBar").slide(1000);
+  });
+});
+
