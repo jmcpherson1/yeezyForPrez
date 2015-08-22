@@ -16,3 +16,16 @@ $( window ).load(function() {
 	}
 anim();
 });
+
+
+$(document).ready(function() {
+
+     $("#joinButton").hover(function() {
+        $(this).css("color", "white ");
+    }, function() {
+        $(this).css("color", "black");
+
+});
+});
+
+
