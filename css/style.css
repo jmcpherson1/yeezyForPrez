@@ -1,149 +1,366 @@
 /*///////////////HOME///////////////*/
 body, html{
-    background:white;
-    width:100%;
+	background:black;
+	width:100%;
 }
 
 #wrap{
 	font-family: sans-serif;
 }
 
-#homeHero{
-    position:fixed;
-    float:left;
-    top:0;
-    left:0;
-    min-width:100%;
-    min-height:100%;
-
-    z-index: -2000;
-}
-
-#yeezyLogo{
-	position:fixed;
-	float:left;
-	left:50px;
-	top:30px;
-	
-	cursor:pointer;
-}
-
-nav ul{
-	list-style:none;
-	width:100%;
-
-	position:fixed;
-	top:55px;
-	right:50px;
-	margin:0 auto;
-	z-index:1000;
-
-	display:inline-block;
-}
-
-nav ul li{
-	padding-left:20px;
-	font-weight:bold;
-	font-size:10pt;
-	z-index:100;
-
-	float:right;
-}
-
-a{
-	text-decoration:none;
-	color:white;
-}
-
-a:hover{
-	color:rgb(122, 18, 21);
-}
-
-#formDiv{
-	position:relative;
-	float:left;
-	top:500px;
-	left:20%;
-}
-
-#joinUsForm{
-	position:relative;
-	padding:0px;	
-
-
-}
-
-
-
-#formField1{
-	font-size:10pt;
-	width:381px;
-	height:42px;
-	margin-right:20px;
-	padding-left:20px;
-	
-	/*display:inline-block;
-	margin-right: 15px;
-	left:113px;
-	top:545px;
-
-	padding-left:20px;
-	*/
-
-}
-
-#formField2{
-	font-size:10pt;
-	width:240px;
-	height:42px;
-	padding-left:20px;
-
-	/*display:inline-block;
-	margin-right: 15px;
-	left:113px;
-	top:545px;
-	padding-left:20px;
-	padding-right:20px;*/
-
-}
-
-#joinButton{
-	font-weight:bold;
-	font-size:10pt;
-	background-color:rgb(154, 119, 36);
-	width:175px;
-	height:48px;
-	margin-left:25px;
-	text-align:center;
-
-	border:none;
-	cursor:pointer;
-	display:inline-block;
-	padding:0px;
-
-}
-
-/*#joinButton{
-	width:175px;
-	height:48px;
-	margin-left:25px;
-	font-weight:bold;
-	font-size:10pt;
-	background-color:rgb(154, 119, 36);
-	border:none;
-
-	display:inline-block;
-	left:835px;
-	top:545px;
-	cursor:pointer;
-	position:absolute;
-}*/
-
-/*TEXT OVERLAY FUNCTION IN CUSTOM.JS. HAVEN'T FIGURED OUT HOW TO DO IN DO BUTTON OVERLAY IN JS*/
 #joinButton:hover {
-  box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 0 0 50px rgba(0, 0, 0, 0.2);
 }
 
 #clearfix{
 	clear:both;
 }
+
+
+
+/*//////DESKTOP START/////*/
+
+@media(min-width: 1200px){
+	#homeHero{
+		position:fixed;
+		float:left;
+		top:0;
+		left:0;
+		min-width:100%;
+		min-height:100%;
+
+		z-index: -2000;
+	}
+
+
+	#yeezyLogo{
+		position:fixed;
+		float:left;
+		left:50px;
+		top:30px;
+		
+		cursor:pointer;
+	}
+
+	/*HOME NAV...START*/
+	nav{
+
+	}
+
+	nav ul{
+		list-style:none;
+		width:100%;
+
+		position:fixed;
+		top:55px;
+		right:50px;
+		margin:0 auto;
+		z-index:1000;
+
+		display:inline-block;
+	}
+
+	nav ul li{
+		padding-left:20px;
+		font-weight:bold;
+		font-size:10pt;
+		z-index:100;
+
+		float:right;
+	}
+
+	a{
+		text-decoration:none;
+		color:white;
+	}
+
+	a:hover{
+		color:rgb(122, 18, 21);
+	}
+	/*HOME NAV...END*/
+
+	#formDiv{
+		position:absolute;
+		top:500px;
+		left:20%;
+		margin-left: -60px;
+	}
+
+	#joinUsForm{
+		padding:0px;	
+
+
+	}
+
+	#formEmail{
+		font-size:10pt;
+		width:381px;
+		height:42px;
+		margin-right:20px;
+		padding-left:20px;
+	}
+
+	#formSong{
+		font-size:10pt;
+		width:240px;
+		height:42px;
+		padding-left:20px;
+	}	
+
+	#joinButton{
+		font-weight:bold;
+		font-size:10pt;
+		background-color:rgb(154, 119, 36);
+		width:175px;
+		height:48px;
+		margin-left:25px;
+		text-align:center;
+
+		border:none;
+		cursor:pointer;
+		display:inline-block;
+		padding:0px;
+	}	
+}	
+/*//////DESKTOP END/////*/
+
+
+/*//////TABLET START//////*/
+@media(min-width:481px) and (max-width:1199px){
+/*@media(min-width:768px) and (max-width:979px){*/
+	#homeHero{
+		position:fixed;
+		float:left;
+		top:0;
+		left:0;
+		min-width:100%;
+		min-height:100%;
+
+		z-index: -2000;
+	}
+
+
+	#yeezyLogo{
+		/*Add offset to center logo to header section*/
+		position: absolute;
+  		top: 15px;
+  		left: 50%;
+  		margin-left: -50px;
+
+		cursor:pointer;
+	}
+/*NAV...START*/
+	#banner{		
+		height: 125px;
+		width: 100%;
+
+		position:fixed;
+		top:0px;
+		left:0px;
+		background-color: rgba(0, 0, 0, .7);
+	}
+
+	nav{
+
+	}
+
+	nav ul{
+		list-style:none;
+		padding:0px;
+
+		position: absolute;
+		width: 70%;
+		left:25%;
+		top:60px;
+
+
+
+	}
+
+	nav ul li{
+		font-size:12pt;
+		letter-spacing:2pt;
+		font-weight:bold;
+		display: inline-block;
+		margin: 20px;
+		padding: 0px;
+	}
+
+	a{
+		text-decoration:none;
+		color:white;
+	}
+
+	a:hover{
+		color:rgb(122, 18, 21);
+		cursor: pointer;
+	}
+	/*NAV...END*/	
+	
+	#formDiv{
+		position:absolute;
+		left:30%;
+		top:400px;
+	}
+
+	#joinUsForm{
+		position:relative;
+		padding:0px;	
+
+	}
+
+	#formEmail{
+		font-size:10pt;
+		width:70%;
+		height:60px;
+		padding-left:20px;
+		margin-bottom:10px;
+	}
+
+	#formSong{
+		font-size:10pt;
+		width:70%;
+		height:60px;
+		padding-left:20px;
+		margin-bottom:10px;
+	}	
+
+	#joinButton{
+		color:white;
+		font-weight:bold;
+		font-size:14pt;
+		background-color:rgb(122, 18, 21);
+		width:70%;
+		height:60px;
+		text-align:center;
+
+		border:none;
+		cursor:pointer;
+		display:inline-block;
+		padding-left:12.5px;
+		padding-right:12.5px;
+
+	}
+}
+
+/*//////TABLET END//////*/
+
+
+/*//////MOBILE START/////*/
+@media (max-width: 480px){
+
+	#homeHero{
+		position:fixed;
+		float:left;
+		top:0;
+		left:0;
+		min-width:100%;
+		min-height:100%;
+
+		z-index: -2000;
+	}
+
+
+	#yeezyLogo{
+		/*Add offset to center logo to header section*/
+		position: absolute;
+  		top: 9px;
+  		left: 50%;
+  		margin-left: -50px;
+
+		cursor:pointer;
+	}
+
+/*NAV...START*/
+	nav{
+
+	}
+
+	nav ul{
+		list-style:none;
+		padding:0px;
+
+		position: fixed;
+		width: 80%;
+		left: 10%;
+		top:60px;
+
+	}
+
+	nav ul li{
+
+		border:solid 1px white;
+		font-size:12pt;
+		letter-spacing:2pt;
+
+		text-align:center;
+		padding-top:20px;
+		padding-bottom:20px;
+		background:rgba(255, 255, 255, .3);
+
+	}
+
+	a{
+		text-decoration:none;
+		color:white;
+	}
+
+	nav ul li:hover{
+		background-color:rgb(122, 18, 21);
+		cursor: pointer;
+		font-weight:bold;
+		letter-spacing: 8pt;
+
+	}
+	/*NAV...END*/
+
+	#formDiv{
+		position:relative;
+		float:left;
+		top:400px;
+		left:10%;
+	}
+
+	#joinUsForm{
+		position:relative;
+		padding:0px;	
+
+	}
+
+	#formEmail{
+		font-size:10pt;
+		width:70%;
+		height:60px;
+		padding-left:20px;
+		margin-bottom:10px;
+	}
+
+	#formSong{
+		font-size:10pt;
+		width:70%;
+		height:60px;
+		padding-left:20px;
+		margin-bottom:10px;
+	}	
+
+	#joinButton{
+		color:white;
+		font-weight:bold;
+		font-size:14pt;
+		background-color:rgb(122, 18, 21);
+		width:70%;
+		height:60px;
+		text-align:center;
+
+		border:none;
+		cursor:pointer;
+		display:inline-block;
+		padding-left:12.5px;
+		padding-right:12.5px;
+
+	}
+
+}
+
+/*//////MOBILE END/////*/
+
